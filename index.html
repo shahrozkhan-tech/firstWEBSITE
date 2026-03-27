@@ -2,127 +2,254 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bank Alfalha</title>
     <style>
-        body {
-           
-       background-color: light gray;
+         body {
+             margin: 0;
+             padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        nav{
+            background-color: rgb(249, 250, 251);
+            display: flex;justify-content: space-between;
+            font-size: large;
+            position: sticky;
+            width: 100%;            
+        }
+        .t2{
+            list-style: none;
+            display: flex;justify-content: space-between;
+            gap: 35px;
+            padding-right: 20px;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        h2{
+            background-color: white;
+            padding-left: 35px;
+        }
+        .a{
+            display: flex;justify-content: space-between;
+        }
+        .b{
+            padding-right: 35px;
+            padding-top: 20px;
+        }
+        .c{
+            background-color: rgb(249, 250, 251) ;
+            padding-left: 60px;
+            line-height: 25px;
+            display: flex;justify-content: space-between;
         }
         h1{
             color: red;
+            font-size: 60px;
+            line-height: 60px;
         }
-        button {
-            color:red;
+        .i{
+            width: 50%;
         }
-    nav{
-       background-color: white;
-    }
-    button {
-           
-       background-color: lightgray;
+        .cards{
+            width:250px; 
+            background:#fff;
+            border-radius: 12px; 
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 25px; 
+            text-align: left;
+        }
+        .card{
+            border:1.5px solid #c00;
+            background:transparent; 
+            color:#c00; 
+            border-radius:50px; 
+            padding:8px 20px; 
+            font-weight:bold;
+            cursor: pointer; 
         }
     </style>
 </head>
-<body> 
-    
-    <img src"https://prodbaf.blob.core.windows.net/media/navbar-logos/alfalah-corporate-1-red_UheMiVC.png" alt="">
-          <ul></ul>
-          <li><button><a href="index (6).html">login</a></button></li> 
-        <button>About</button>
-        <button>Deals & Discount</button>
-   <br> <button>Careers</button>
-        <button>Branch Locator</button>
+<body>
+    <header>
+    <nav>
+        <ul class="t2">
+            <li>
+                <a href="#">Personal</a>
+            </li>
+            <li>
+                <a href="#">Buisness</a>
+            </li>
+            <li>
+                <a href="#">Islamic</a>
+            </li>
+            <li>
+                <a href="#">Premier</a>
+            </li>
+        </ul>
+        <ul class="t2">
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Deals & Discount</a>
+            </li>
+            <li>
+                <a href="#">Careers</a>
+            </li>
+            <li>
+                <a href="#">Pakistan</a>
+            </li>
+            <li>
+                <a href="#">Branch Locator</a>
+            </li>
+            <li>
+                <a href="#">Login</a>
+            </li>
+        </ul>
     </nav>
-    <h1>Pakistan's Best Bank for Digital Banking</h1>
-Enjoy financial freedom with Pakistan's best digital banking experience. Save and grow your wealth through deposits, mutual funds, stocks and government securities. Finance your dream home, car, business or agricultural needs with ease. Access our award-winning Alfa app, country’s largest digital network of 24/7 CDMs, ATMs and extensive payment acceptance points. Choice of Islamic or conventional banking designed around you. Beyond banking, unlock lifestyle privileges; enjoy exclusive dining discounts, global lounge accesses with all international cards' schemes, including American Express exclusively. Bank Alfalah is where ambition finds direction and your future finds the way forward.
-    <br><button style="padding: 10px 30px; border-radius: 50px;background-color: red; color: white;">Open Account</button>
-   <img src="https://prodbaf.blob.core.windows.net/media/hero-slider-images/Main-Banner-Conventional-26_Sep_2025.gif" width="400" height="300" alt="Website Banner">
-       <marquee bahavior="scroll" direction="rigth" bgcolor ="red">Alfa TDR:Digital Account Opening</marquee>
-    <h2>Banking Solutions</h2>
-    <p>
-    <br>
-        <h2>Accounts, Alfa & Debit Cards</h2>
+    <div class="a">
+        <h2>Bank Alfalah</h2>
+        <div class="b">
+        <input type="text" name="" id="g">
+        <label for="g">Search</label>
+        </div>
+    </div>
+    </header>
 
-Open an account to unlock Pakistan’s leading digital banking experience and exclusive features of Alfa and Debit Cards</p>
-<button style="padding: 10px 30px; border-radius: 50px;">Learn more</button>
-</p>
-<img src="https://bafblob.blob.core.windows.net/static/images/personal_home/Current-&-saving-account-Conventional.svg" width="60" height="60" alt="">
-   
-<p> <h2>Credit Cards</h2>
-Break free from all financial boundaries, get exclusive American Express Card & enjoy the highest discounts and the best deals.</p><button style="padding: 10px 30px; border-radius: 50px;">Learn more</button>
-</p>
-<p><img src="https://bafblob.blob.core.windows.net/static/images/personal_home/Personal-Loan.png"><br>
-Need extra funds quickly?</p><button style="padding: 10px 30px; border-radius: 50px;">Learn more</button>
-<p> <img src="https://bafblob.blob.core.windows.net/static/images/personal_home/Car-loan.png" alt="">
-    <h2>Car Finance</h2>
-    Book your dream car on Buy-Now,
-Pay-Later facility.
-</p><button style="padding: 10px 30px; border-radius: 50px;">Learn more</button>
-<p>
-    <img src="https://bafblob.blob.core.windows.net/static/images/personal_home/Home-finance.png" alt="">
-    <h2>Home Finance</h2>
-Get your dream home on Buy-Now,
-Pay-Later facility
-</p>
-<button style="padding: 10px 30px; border-radius: 50px;">Learn more</button>
-<p><img src="https://bafblob.blob.core.windows.net/static/images/personal_home/Alfa.png" alt="">
-    <h2>Wealth Management</h2>
-Invest in funds, securities, T-Bills & Sukuk directly linked to your account and see all your investments in one place.
-</p><button style="padding: 10px 30px; border-radius: 50px;">Learn more</button>
-<p>
-    <img src="https://bafblob.blob.core.windows.net/static/images/personal_home/Alfamall.png" alt="">
-    <h2>Alfa Mall</h2>
 
-    Award winning E-commerce marketplace with Buy-Now, Pay-Later facility.
-</p>
-<button style="padding: 10px 30px; border-radius: 50px;">shop now</button>
-<p>
-    <img src="https://bafblob.blob.core.windows.net/static/images/personal_home/Digital-Banking.png" alt="">
-    <h2>Roshan Digital Account</h2>
-Overseas Pakistanis, now open FCY or PKR account in Pakistan, earn significant returns & consume your funds on your loved ones in Pakistan
-</p>
-<button style="padding: 10px 30px; border-radius: 50px;">Learn more</button>
-<h2>Bank Smarter with the Alfa App</h2>
-<p>Your all in one digital banking lifestyle app. Make digital transactions, investments, or apply for cards anytime, anywhere. With instant financing and secure access to a full suite of services, Alfa puts complete banking convenience in your hands.</p>
-<h2>Features</h2>
-<p>
-    <ul>
-  <li>Invest digitally in mutual funds and term deposits with just a few taps.</li>
-   </li>
-  <li>Apply instantly for debit and credit cards without visiting a branch.</li>
-</li>
-  <li>Get real-time financing solutions for quick and convenient access to funds</li>
-  <li>Manage all your banking needs (Instant money transfers via RAAST & bill payments to 4,000+ billers) in one app, built for simplicity and control.</li>
-</ul>
-    </p>
-<button style="padding: 10px 30px; border-radius: 50px;">Learn more</button>
-<img src="https://prodbaf.blob.core.windows.net/media/account-promo-img/Card-Issuance-3.gif"width="400" height="300" alt="Website Banner">
-    <h2>Grab the Best Cards Deals Around!</h2>
-<p>Experience the highest discounts on top destinations, trending brands and lifestyle favorites. Get access to exclusive savings at the places everyone’s talking about. Your next favorite deal is just a click away!
-</p>
-<button style="padding: 10px 30px; border-radius: 50px;">Learn more</button>
-<p>Head Office, B.A. Building, I.I. Chundrigar Road, Karachi-74000, Pakistan</p>
+    <main>
+        <div class="c">
+            <div class="i">
+            <h1>Pakistan's Best Banking For Digital Banking</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sint tempora veniam ipsam corporis, vero libero incidunt cupiditate, fugiat numquam perferendis nobis quod adipisci, cumque autem velit ab laboriosam dolor rerum consequatur aliquam dolorem earum modi nostrum! Blanditiis iste quia reprehenderit eveniet dolorem at beatae hic soluta optio quis. Omnis, eaque suscipit quia ducimus cumque repellat molestiae quidem quo fuga! Cum numquam perspiciatis itaque aliquam debitis dolorem culpa mollitia excepturi atque doloribus eveniet in soluta quae autem tenetur veritatis officia, quaerat possimus iste facere maxime! Mollitia ipsa, minima possimus, quia architecto distinctio eligendi ipsam reprehenderit cupiditate in facere magni voluptate?</p>
+                    <button class="card">
+                        Open Account
+                    </button>
+            </div>
+            <div>
+                <img src="https://prodbaf.blob.core.windows.net/media/hero-slider-images/Main-Banner-Conventional-26_Sep_2025.gif" alt="image">
+            </div>
+        </div>
+        <marquee behavior="scroll" direction="left" style="background-color: red; color: white; padding: 10px 20px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae sint ut exercitationem omnis eligendi nostrum veniam distinctio tenetur doloribus nisi.</marquee>
+        <div>
+            <h1 style="color: black; font-size: 50px; padding-left: 60px;">Banking Solutions</h1>
+        </div>
+        <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:25px;">
+            <div class="cards">
+                <h3>Accounts, Alfa & Debit Cards</h3>
+                <p>Open an account to unlock Pakistan's leading digital banking experience and exclusive features of Alfa and Debit Cards</p>
+                <button class="card">Learn More</button>
+            </div>
+            <div class="cards">
+                <h3>Credit Cards</h3>
+                <p>Break free from all financial boundaries, get exclusive American Express Card & enjoy the highest discounts and the best deals.</p>
+                <button class="card">Learn More</button>
+            </div>
+            <div class="cards">
+                <h3>Personal Loan</h3>
+                <p>Need extra funds quickly?</p>
+                <button class="card">Learn More</button>
+            </div>
+            <div class="cards">
+                <h3>Car Finance</h3>
+                <p>Book your dream car on Buy-Now,
+                Pay-Later facility.</p>
+                <button class="card">Learn More</button>
+            </div>
+        </div>
+        <div class="c">
+            <div class="i">
+               <h1 style="color: black; font-size: 50px; margin-top: 50px; ">Bank Smarter with the Alfa App</h1>
+               <p>Your all in one digital banking lifestyle app. Make digital transactions, investments, or apply for cards anytime, anywhere. With instant financing and secure access to a full suite of services, Alfa puts complete banking convenience in your hands.</p>
+               <div>
+                <h4>Features</h4>
+                <ul style="list-style: circle; line-height: 30px; padding-left: 10px;">
+                    <li>
+                        Invest digitally in mutual funds and term deposits with just a few taps.
+                    </li>
+                    <li>
+                        Apply instantly for debit and credit cards without visiting a branch.
+                    </li>
+                    <li>
+                        Get real-time financing solutions for quick and convenient access to funds.
+                    </li>
+                    <li>
+                        Manage all your banking needs (Instant money transfers via RAAST & bill payments to 4,000+ billers) in one app, built for simplicity and control.
+                    </li>
+                </ul>
+                <button class="card">Learn More</button>
+               </div> 
+            </div>
+           
+                <img src="https://prodbaf.blob.core.windows.net/media/account-promo-img/Card-Issuance-3.gif" alt="image" style="height: 500px;">          
+        </div>
+        <div class="c">
+            <div class="i">
+               <h1 style="color: black; font-size: 50px; margin-top:50px; ">Grab the Best Cards Deals Around!</h1> 
+               <p>Experience the highest discounts on top destinations, trending brands and lifestyle favorites. Get access to exclusive savings at the places everyone’s talking about. Your next favorite deal is just a click away!</p>
+               <button class="card" style="margin-bottom: 50px;">Learn More</button>
+            </div>
+            <img src="https://prodbaf.blob.core.windows.net/media/offers-promo-images/Website_Banner_20_PeekaBoo_1_SOxNHfK.webp" alt="image" height="200px" style="margin-left: 200px;">
+            <img src="https://prodbaf.blob.core.windows.net/media/offers-promo-images/Website_Banner_20_PeekaBoo_4_U0qAN3X.webp" alt="image" height="200px" style="padding-right: 70px;">
+        </div>
+        
+    </main>
 
-    <p>contactus@bankalfalah.com<br>
-+92 (21) 111 225 111</p>
-<p>Fraud Risk Awareness</p>
-<p>Notices & Circulars</p>
-<p>Service Requests TAT</p>
-<p>Schedule of Charges</p>
-<p>Key Fact Statements</p>
-<p>Terms and Conditions</p>
-<p>Rate Sheet</p>
-<p>Contact Us</p>
-<p>Women Services</p>
-<p>NFLP</p>
-<p>Careers</p>
-<p>Remittance Tracker</p>
-<fieldset>
-<h2 aligh="center">Connect with us</h2>
-    <a href="https://www.facebook.com/BankAlfalahOfficial/"><img src="https://www.facebook.com/BankAlfalahOfficial/" width="70" height="80" alt="facebook">  
-        <a href="https://www.instagram.com/bank_alfalah/"><img src="" width="70" height="80" alt="facebook">  
-    <a href="https://youtube.com/@bankalfalahofficial?si=d3PO1yARF3bXy7S1"><img src="" width="70" height="80" alt="facebook">  
-   <a href="https://www.tiktok.com/@bank.alfalah?_t=ZS-90Z88GIYrkA&_r=1"><img src="" width="70" height="80" alt="facebook">  
- </feildset>
+
+    <footer>
+        <div  style="display: flex; justify-content: space-between;">
+            <div>
+            <table style="width: 20%; padding: 50px; text-align: left; line-height: 20px; line-height: 50px;">
+                <tr>
+                    <th>Bank Alfalah</th>
+                </tr>
+                <tr>
+                    <td>
+                        Head Office, B.A. Building, I.I. Chundrigar
+                        Road, Karachi-74000, Pakistan
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="">contactus@bankalfalah.com</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            +92 (21) 111 225 111
+                        </td>
+                    </tr>
+                
+            </table>
+            </div>
+            <div style="padding: 50px; display: flex; justify-content: flex-end; line-height: 50px;">
+                <ul style="list-style: none;">
+                    <li>Fraud Risk Awareness</li>
+                    <li>Key Fact Statements</li>
+                    <li>Women Services</li>
+                    <li>Notices & Circulars</li>
+                </ul>
+                <ul style="list-style: none;">
+                    <li>Fraud Risk Awareness</li>
+                    <li>Key Fact Statements</li>
+                    <li>Women Services</li>
+                    <li>Notices & Circulars</li>
+                </ul>
+                <ul style="list-style: none;">
+                    <li>Fraud Risk Awareness</li>
+                    <li>Key Fact Statements</li>
+                    <li>Women Services</li>
+                    <li>Notices & Circulars</li>
+                </ul>
+            </div>            
+        </div>
+        <div style="text-align: center; margin-bottom: 20%;">
+        <button class="card" style="font-size: large;">CONTACT WITH US</button>
+        </div>
+    </footer>
+    
 </body>
+
 </html>
